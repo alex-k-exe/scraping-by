@@ -1,5 +1,4 @@
 import { jobs } from "$lib/fakeData";
-import { scrapeJobs } from "$lib/scrapers";
 
 export async function load() {
   // return {
