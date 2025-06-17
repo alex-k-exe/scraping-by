@@ -1,0 +1,14 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"rootDirs": ["..", "./types"],
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"lib": ["esnext", "DOM", "DOM.Iterable"],
+		"moduleResolution": "bundler",
+		"module": "esnext",
+		"noEmit": true,
+		"target": "esnext"
+	},
+	"exclude": ["./node_modules/**"]
+}
