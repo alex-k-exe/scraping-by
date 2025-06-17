@@ -44,8 +44,8 @@ declare module '$env/static/private' {
 	export const XCURSOR_SIZE: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
-	export const LOGNAME: string;
 	export const XDG_SESSION_DESKTOP: string;
+	export const LOGNAME: string;
 	export const XDG_SESSION_TYPE: string;
 	export const PNPM_HOME: string;
 	export const MOTD_SHOWN: string;
@@ -95,7 +95,6 @@ declare module '$env/static/private' {
 	export const OLDPWD: string;
 	export const HYPRCURSOR_SIZE: string;
 	export const TERM_PROGRAM: string;
-	export const NODE_ENV: string;
 }
 
 /**
@@ -145,8 +144,8 @@ declare module '$env/dynamic/private' {
 		XCURSOR_SIZE: string;
 		XDG_SEAT: string;
 		PWD: string;
-		LOGNAME: string;
 		XDG_SESSION_DESKTOP: string;
+		LOGNAME: string;
 		XDG_SESSION_TYPE: string;
 		PNPM_HOME: string;
 		MOTD_SHOWN: string;
@@ -196,7 +195,6 @@ declare module '$env/dynamic/private' {
 		OLDPWD: string;
 		HYPRCURSOR_SIZE: string;
 		TERM_PROGRAM: string;
-		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
